@@ -21,8 +21,8 @@ func (p PersonD) printInfo() {
 	fmt.Printf("Person->id:%d name:%s age:%d \n", p.id, p.name, p.age)
 }
 
-func (s StudentD) printInfo() {
-	fmt.Printf("Student->id:%d name:%s age:%d \n", s.id, s.name, s.age)
+func (stu StudentD) printInfo() {
+	fmt.Printf("Student->id:%d name:%s age:%d \n", stu.id, stu.name, stu.age)
 }
 
 func main() {
